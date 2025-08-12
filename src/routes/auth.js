@@ -1,7 +1,7 @@
 import { Router } from "express";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import prisma from "../prismaClient.js";
+import prisma from "../db.js";
 
 const router = Router();
 
